@@ -1,0 +1,18 @@
+{
+  "name": "rum-datadog-js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "@datadog/browser-logs": "^6.13.0",
+    "@datadog/browser-rum": "^6.13.0"
+  }
+}
